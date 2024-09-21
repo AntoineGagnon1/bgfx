@@ -17,3 +17,13 @@ externalproject "bx"
 		["Final"] = "Release",
 		["Win64"] = "x64"
 	}
+	
+externalproject "bimg"
+	location ".build/projects/vs2022/"
+	uuid "C499947C-B0D0-950D-59BD-7B1045D3110F"
+	kind "StaticLib"
+	language "C++"
+	configmap {
+		["Final"] = "Release",
+		["Win64"] = "x64"
+	}
