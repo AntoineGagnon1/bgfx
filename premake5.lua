@@ -21,7 +21,7 @@ function bgfxExampleProject(name, project_uuid)
 			["Win64"] = "x64"
 		}
 		
-		dependson {"example-glue", "example-common", "bimg_decode"}
+		dependson {"example-glue", "example-common", "bgfx", "bx", "bimg", "bimg_decode"}
 end
 
 bgfxProject("bgfx", "6C90947C-58C7-950D-01B4-7B10EDC9110F");
